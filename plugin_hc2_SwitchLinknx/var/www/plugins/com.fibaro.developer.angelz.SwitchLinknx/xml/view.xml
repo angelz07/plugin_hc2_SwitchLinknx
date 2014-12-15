@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <page name="buttons" height="200">
+
+
+
+  	<horizontalLayout weight="1">
+      <verticalLayout weight="1"> 
+        
+        <spacer weight="1"/>
+        
+
+          <button name="Key_on" caption="On" class="fleft com_fibaro_default_ButtonGreen" weight="1" />
+         
+          <spacer weight="1"/>
+          <button name="Key_off" caption="Off" class="fleft com_fibaro_default_ButtonRed" weight="1" />  
+       
+     </verticalLayout>
+      <verticalLayout weight="1"> 
+          <image name="icone" caption="" source="http://192.168.1.11/plugins/com.fibaro.developer.angelz.SwitchLinknx/img/onoff0.png"  weight="1"/>
+      </verticalLayout>
+  </horizontalLayout>
+    
+    <horizontalLayout weight="0.2">
+      <label name="debug" caption="" weight="0.2"/>
+    </horizontalLayout>
+  
+  </page>
+  <main/>
+</root>

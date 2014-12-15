@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="com.fibaro.developer.angelz.SwitchLinknx" baseType="com.fibaro.binarySwitch">
+  <interfaces>
+        
+        <interface name="energy"/>
+    </interfaces>
+  <properties>
+    <property name="ip_nodejs" type="string"/>
+    <property name="port_nodejs" type="string"/>
+    <property name="id_linknx_cmd" type="string"/>
+    <property name="id_linknx_status" type="string"/>
+    <property name="configured" type="bool"/>
+    <property name="deviceIcon" type="string">
+        <default>1</default>
+    </property>
+  </properties>
+  <actions>
+    <action name="send" argc="2"/>
+    <action name="receive_data" argc="3"/>
+    <action name="turnOn" argc="1"/>
+    <action name="turnOff" argc="1"/>  
+  </actions>
+  <events/>
+</device>
